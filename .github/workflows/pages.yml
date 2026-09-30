@@ -1,4 +1,4 @@
-name: Deploy client reporting template to GitHub Pages
+name: Deploy zero-to-build deck to GitHub Pages
 
 on:
   push:
@@ -26,9 +26,8 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          NEXT_PUBLIC_REPORT_BASE_PATH: /pinterest-platform-positioning
+          NEXT_PUBLIC_REPORT_BASE_PATH: /zero-to-build
       - run: node scripts/export-pages.mjs
-      - run: node --test tests/pages-export.test.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: pages-dist

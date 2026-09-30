@@ -12,19 +12,19 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://noisemediagroup.github.io/pinterest-platform-positioning/"),
-  title: "Pinterest Presents 2026 | Noise event recap",
-  description: "A story-led internal recap of Pinterest Presents 2026: what happened, Pinterest's view of AI, product announcements, brand examples, measurement and trends.",
+  metadataBase: new URL("https://noisemediagroup.github.io/zero-to-build/"),
+  title: "Zero to Build | Noise technical tutorials",
+  description: "Session 1 of the Noise technical tutorials: vibe coding in the terminal. Walk in with no coding experience, leave with a platform of your own.",
   openGraph: {
-    title: "Pinterest Presents 2026 | Noise event recap",
-    description: "What happened, what Pinterest announced and how it described the future of visual discovery, AI and advertising.",
-    images: [{ url: "og.png", width: 1730, height: 909, alt: "Pinterest wants to turn intention into action - Noise internal event recap" }],
+    title: "Zero to Build | Noise technical tutorials",
+    description: "Vibe coding in the terminal: from what a terminal even is to shipping your own page. Noise internal training, session 1 of 4.",
+    images: [{ url: "noise-logo-black.png", width: 1920, height: 830, alt: "Noise Media" }],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Pinterest Presents 2026 | Noise event recap",
-    description: "What happened, what Pinterest announced and how it described the future of visual discovery, AI and advertising.",
-    images: ["og.png"],
+    card: "summary",
+    title: "Zero to Build | Noise technical tutorials",
+    description: "Vibe coding in the terminal: from what a terminal even is to shipping your own page. Noise internal training, session 1 of 4.",
+    images: ["noise-logo-black.png"],
   },
 };
 
