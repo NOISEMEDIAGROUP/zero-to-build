@@ -2350,3 +2350,10 @@ button:focus-visible, summary:focus-visible, [contenteditable="true"]:focus-visi
 @media(max-width:820px){
 .detail-grid.cols-3,.detail-grid.cols-4{grid-template-columns:1fr}
 }
+
+/* zero-to-build v2: codex-flavoured terminal lines */
+.term-ask{margin:0 0 4px;font:600 14.5px/1.5 var(--font-dm-sans);color:#fff;overflow-wrap:anywhere}
+.term-ask b{color:var(--orange);font-weight:700;letter-spacing:.02em}
+.term-ai{margin:0;font:400 13.5px/1.55 var(--font-dm-sans);color:#cfc4b8;overflow-wrap:anywhere}
+.term-ai b{color:var(--orange);font-weight:600}
+.term-done{margin:0;font:600 14px/1.5 var(--font-dm-sans);color:#f5efe8;border-left:2px solid var(--orange);padding-left:10px}
